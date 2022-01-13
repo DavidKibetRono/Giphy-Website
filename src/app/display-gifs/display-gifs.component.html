@@ -1,0 +1,18 @@
+<app-input-search></app-input-search>
+
+<div class="gifs" (click)="specificGif(allData.id)" *ngFor="let allData of allDatas.slice(0, 10);">
+    <!-- width -->
+    <!-- size -->
+    Height: {{allData.images.downsized.height}}<br>
+   Width:  {{allData.images.downsized.width}}<br>
+   Size:  {{allData.images.downsized.size}}<br>
+   <!-- URL:  {{allData.images.downsized.url}} -->
+    <img [src]="allData.images.downsized.url" alt="Image">
+
+
+</div>
+
+<div class="load">
+  <app-load-more></app-load-more>
+
+</div>
