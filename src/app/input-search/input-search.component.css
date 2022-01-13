@@ -1,0 +1,11 @@
+.search{
+  margin-top: 20px;
+  color: #121212;
+}
+#inputField{
+  width: 90%;
+  float: left;
+}
+button{
+  margin-left: 5px;
+}
