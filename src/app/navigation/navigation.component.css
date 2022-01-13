@@ -1,0 +1,9 @@
+button{
+    width:100px;
+    margin-left: 10px;
+    height: 50px;
+    border: unset;
+}
+button:hover{
+    background-color: tomato;
+}
