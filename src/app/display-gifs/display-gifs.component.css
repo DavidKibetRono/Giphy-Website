@@ -1,0 +1,23 @@
+.gifs{
+  border:1px solid blue ;
+  padding: 20px;
+  width:30%;
+  margin: 5px;
+  float: left;
+
+}
+.gifs img{
+    width:100px;
+    height: 100px;
+
+}
+.gifs:hover{
+
+  transform: scale(0.9);
+  border: 2px solid tomato;
+
+  border-radius: 20px;
+}
+.load{
+  clear: both;
+}
